@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness and Media Query</title>
+</head>
+<style>
+    body{
+    margin: 0;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    }
+
+    html {
+      box-sizing: border-box;
+    }
+    *, *:before, *:after {
+        box-sizing: inherit;
+    }
+
+    .about-section {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: white;
+        padding: 200px;
+        background-image: url("bg-hero-desktop.svg"); background-color:  hsl(193, 100%, 96%);
+        width: 100%;
+        height: 700px;
+        min-height: 100%;
+    }
+
+    .container1 {
+        background-color: #f1f1f1;
+        padding: 200px;
+        margin: 55px;
+        border-radius: 40px;
+    }
+    .container2 {
+        background-color: #f1f1f1;
+        padding: 200px;
+        margin: 55px;
+        border-radius: 40px;
+    }
+    .container3 {
+        background-color: #f1f1f1;
+        padding: 200px;
+        margin: 55px;
+        border-radius: 40px;
+    }
+    .container4 {
+        background-color: #f1f1f1;
+        padding: 100px;
+        margin: 450px;
+        border-radius: 40px;
+    }
+    .button1 {
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    border-radius: 25px;
+    }    
+    
+    .button2 {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    opacity: 0.9;
+    border-radius: 25px;
+    }
+</style>
+<body>
+    <div class="about-section">
+        <img src="logo.svg" alt="Huddle logo" style="position: absolute;top: 20px;left: 100px;"> 
+        <button type="submit" class="button button1" style="position: absolute;top:20px;right:90px;font-size: 18px;">Try it free</button>
+        <img src="illustration-mockups.svg" alt="illustration-mockups" style="position: absolute; top: 100px;right: 90px;width: 50%;">
+        <h1 style="font-size: 40px;position:relative;left:-100px ; color: black;font-weight: 600;">Build The Community <br> Your Fans Will Love</h1>
+        <p style="font-size: 18px;position:relative;left:-100px ; color: black;">Huddles re-imagines the way we build communities. You have<br> a voice, but so does your audience. Create connections with <br> your users as you engage in genuine discussions.</p>
+        <button type="submit" class="button button2" style="position: relative;left:-100px">Get started for free</button>
+    </div>
+
+    <div class="container1">
+        <img src="illustration-grow-together.svg" alt="illustration-grow-together"style="position: absolute; top: 800px;right: 90px;width: 30%;">
+        <h2 style="font-size: 18px;font-weight: 600;">Grow Together</h2>
+        <p font-size: 18px;>Generate meaningful discussions with your audience and <br> build a strong, loyal community. Think of the insightful <br> conversations you miss out on with a feedback form.</p>
+    </div>
+
+    <div class="container2">
+        <img src="illustration-flowing-conversation.svg" alt="illustration-flowing-conversation" style="position: absolute; top: 1450px;left: 90px;width: 30%;">
+        <h2 style="font-size: 18px;position: relative;right: -700px;font-weight: 600;">Flowing conversations</h2>
+        <p style="font-size: 18px;position: relative;right: -700px;">You wouldn't paginate a conversation in real life, so why do <br> it online? Our threads have just in-time loading for a more <br> natural flow</p>
+    </div>
+
+    <div class="container3">
+        <h1 style="font-size: 18px;font-weight: 600;">Your Users</h1>
+        <p style="font-size: 18px;">It takes no tme at all to integrate Huddle with your app's <br> authentication solution. This means, once signed in to <br> your app, your users can start chatting instantly.</p>
+    </div>
+
+    <div class="container4">
+        <h2 style="font-size: 30px;font-weight: 600;text-align: center;">Ready to build your community?</h2>
+        <button type="submit" class="button button3" style="position: absolute;top:20px;right:90px;font-size: 18px;">Get Started For Free</button>
+    </div>
+
+</body>
+</html>
